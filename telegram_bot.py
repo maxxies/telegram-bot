@@ -35,7 +35,7 @@ def greet(message):
 
 @bot.message_handler(commands=['whatsapp'])
 def greet(message):
-    bot.reply_to(message.chat.id, "Work is been done on the platform to serve your needs.")
+    bot.reply_to(message, "Work is been done on the platform to serve your needs.")
 
 
 # Searches/checks  for messages
